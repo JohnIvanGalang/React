@@ -2,7 +2,7 @@ export const Header = () => {
     return (
         <>
             <div className="container-fluid px-0">
-                <nav className="navbar navbar-expand-lg bg-light shadow-sm">
+                <nav className="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
                     <div className="container">
                         <a className="navbar-brand text-dark fw-bold" href="#">
                             <i className="bi bi-hexagon-fill me-2"></i>
@@ -28,9 +28,14 @@ export const Header = () => {
                                         <i className="bi bi-tag me-1"></i> FAQs
                                     </a>
                                 </li>
-                                <li className="nav-item mx-2">
+                                {/* <li className="nav-item mx-2">
                                     <a className="btn btn-dark rounded" href="#">
                                         <i className="bi bi-person me-1"></i> Login
+                                    </a>
+                                </li> */}
+                                <li className="nav-item mx-2">
+                                    <a className="nav-link text-dark rounded" href="#">
+                                        <i className="bi bi-chevron-right me-2"></i>Contact
                                     </a>
                                 </li>
                             </ul>
@@ -100,15 +105,15 @@ export const Footer = () => {
                                 <ul className="list-unstyled text-secondary">
                                     <li className="mb-3">
                                         <i className="bi bi-geo-alt me-2"></i>
-                                        123 Innovation Drive, Tech City, TC 12345
+                                        96 Techzone Tech City
                                     </li>
                                     <li className="mb-3">
                                         <i className="bi bi-envelope me-2"></i>
-                                        contact@example.com
+                                        we_exclr8@gmail.com
                                     </li>
                                     <li className="mb-3">
                                         <i className="bi bi-telephone me-2"></i>
-                                        +1 (555) 123-4567
+                                        +63 994-676-5907
                                     </li>
                                 </ul>
                             </div>
